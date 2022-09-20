@@ -1,0 +1,25 @@
+@import url ('https://fonts.google.com/specimen/Roboto');
+
+*,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+div.container {
+    width: 800px;
+ 
+}
+div.header {
+    height: 1000px;
+    padding-top: 50px;
+    text-align: center;
+    background: linear-gradient(rgba(156, 182, 139, 0.067));
+}
+
+   
+
+
+
+
