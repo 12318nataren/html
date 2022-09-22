@@ -49,6 +49,33 @@ div.clear{
     width: 485px;
 
 }
+.col-1 ul{
+    list-style: none;
+}
+.col-1 .item{
+    border-bottom: 1px solid #ccc;
+    padding: 20px 0 10px 0;
+    
+}
+.col-1 .item:hover{
+    background: #333;
+    color: rgb(245, 243, 243);
+
+}
+.col-1 .item .date,
+.col-1 .item .desc{
+    float: left;
+
+}
+.col-1 .item .date{
+    width: 30%;
+    font-weight: bold;
+    padding-left: 5px;
+
+}
+.col-1 .item .desc{
+    width: 65%;
+}
 .col-2{
     width: 285px;
     text-align: center;
@@ -59,4 +86,20 @@ div.clear{
     margin: 10px 5px;
     border: 5px solid rgb(107, 8, 107);
     
+}
+.col-2 table tr:hover {
+    background: #a8a8;
+
+}
+.col-2 table td:first-child {
+    text-align: right;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-right: 5px;
+    font-size: 12px;
+}
+.col-2 table td:last-child{
+    text-align: left;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
 }
