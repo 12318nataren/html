@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+
+<body onload="loadData()">
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <section class="py-5 text-center container">
+        <div class="row py-lg-5">
+            <div class="col-lg-12 col-md-8 mx-auto">
+                <h1 class="fw-light">Abarrotes Don Edgar</h1>
+                <p class="lead text-muted">
+                    Laboramos de lunes a domingo, las 24 hrs y los 365 dias del año...
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row rows-cols-1 rows-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/IMG-20221019-WA0002.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Anahí </h5>
+                            <h6 class="card-subtitle mb-2 text-muted price">$9999999999999</h6>
+                            <p class="card-text">La anahi nomas.</p>
+                            <a id="prod0001" onclick="AddCart();" href="#" class="btn btn-info">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/IMG-20221019-WA0000.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Citlali</h5>
+                            <h6 class="card-subtitle mb-2 text-muted price">$9999999999999</h6>
+                            <p class="card-text">La citlali nomas.</p>
+                            <a id="prod0002" href="#" onclick="AddCart();" class="btn btn-info">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/chichles.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Chicles</h5>
+                            <h6 class="card-subtitle mb-2 text-muted price">$999</h6>
+                            <p class="card-text">Unos chicles .</p>
+                            <a id="prod0003"href="#" onclick="AddCart();" class="btn btn-info">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/cocacola.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">cocacola</h5>
+                            <h6 class="card-subtitle mb-2 text-muted price">$99</h6>
+                            <p class="card-text">Unos gramitos de coca.</p>
+                            <a id="prod0004"href="#" onclick="AddCart();" class="btn btn-info">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/gatorade 1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Gatorade</h5>
+                            <h6 class="card-subtitle mb-2 text-muted price">$1000</h6>
+                            <p class="card-text">El gatorade.</p>
+                            <a id="prod0005"href="#" onclick="AddCart();" class="btn btn-info">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/huevo.jfif" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Huevo</h5>
+                            <h6 class="card-subtitle mb-2 text-muted price">$9999999999999</h6>
+                            <p class="card-text">Los que le faltaron.</p>
+                            <a id="prod0006"href="#" onclick="AddCart();" class="btn btn-info">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/chokis.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Chokis</h5>
+                            <h6 class="card-subtitle mb-2 text-muted price">$9999999999999</h6>
+                            <p class="card-text">Galletas.</p>
+                            <a id="prod0007"href="#" onclick="AddCart();" class="btn btn-info">Add to cart</a>
+                        </div>
+                    </div>
+                </div> 
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/guinness cheve 1.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Cheve</h5>
+                            <h6 class="card-subtitle mb-2 text-muted price">$0.001</h6>
+                            <p class="card-text">La pura vida.</p>
+                            <a id="prod0008"href="#" onclick="AddCart();" class="btn btn-info">Add to cart</a>
+                        </div>
+                    </div>
+                </div> 
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/sabritas-ruffles-xl.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Rufles</h5>
+                            <h6 class="card-subtitle mb-2 text-muted price">$9</h6>
+                            <p class="card-text">Ruffles.</p>
+                            <a id="prod0009"href="#" onclick="AddCart();" class="btn btn-info">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/IMG-20220818-WA0043.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Producto denominado "El Benja"</h5>
+                            <h6 class="card-subtitle mb-2 text-muted price">$9999999999999</h6>
+                            <p class="card-text">Con todo respeto, Yes I am.</p>
+                            <a id="prod0010"href="#" onclick="AddCart();" class="btn btn-info">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

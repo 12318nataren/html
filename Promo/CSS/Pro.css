@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+*,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'quicksand', sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 940px;
+    margin: auto;
+}
+header {
+    background: url(../Images/Imagen1p.png);
+    height: 400px;
+    border: 1px solid black;
+    background-repeat: no-repeat;
+    background-color: rgb(192, 231, 192);
+    background-position: center;
+    background-size: 30%;
+    background-position: cover;
+    width: 100%;
+    color: rgb(17, 17, 17);
+    text-align: left;
+    padding: 10% 20%;
+    font-size: 60%;
+    object-position: center;
+}
+header h2{
+    text-align: left;
+}
+img{
+    width: px;
+}
+.phrase{
+    background:rgb(192, 231, 192);
+    margin: 20px 0;
+    padding: 10px;
+    font-size: 24px;
+}
+.col{
+    padding: 10px 1opx 10px 5px;
+    width: 50%;
+}
+.col-1{
+    float: left;
+}
+.col-2 img{
+    width: 300px;
+    border-radius: 20%;
+    margin: 10px 5px;
+    float: right;
+
+}
+.footer{
+    background: peru;
+    color: black;
+    float: left;
+}
+.footer p{
+    display: inline-block;
+    width: 33%;
+}
